@@ -1,0 +1,137 @@
+body
+{
+	background : url("fond.jpg");
+	background-size : cover;
+	background-position : center top;
+	margin: 0;
+}
+.bandeau
+{
+	display : flex;
+	flex-direction : column;
+	width : 100%;
+
+}
+#img1
+{
+	display : flex;
+	height : 170px;
+}
+#social
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.social
+{
+	display: flex;
+	width: 3%;
+}
+.head
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+h1
+{
+	display:flex;
+	position : absolute;
+	top : 40px;
+	text-align : center;
+	/*border : 1px solid black;*/
+	background-color : rgba(127,255,212,0.3);
+	border-radius : 5px;
+	text-shadow: 2px 2px 4px orange;
+	text-shadow: 5px 8px 6px red;
+	z-index : 1;
+	width : 100%;
+	justify-content:center;
+
+}
+ul
+{
+	text-align:left;
+}
+.borderau
+{
+	background:linear-gradient(to bottom right, #FFE4B5,orange);
+	position : relative; #Permet d'indexé le bordereau pour mettre le menu déroulant dessous.
+	width:100%;
+	height : 50px;
+	box-shadow: 0px 0px 5px black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index : 1;
+}
+
+
+#galerie {
+	display : flex;
+	position: relative;
+	z-index: 2;
+}
+
+#galerie>.sm
+{
+	position : relative;
+	display: none;
+	z-index : 1;
+}
+#galerie:hover .sm
+{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height:100%;
+	padding-top : 20px;
+	background:linear-gradient(to bottom right, #FFE4B5,orange);
+	box-shadow: 0px 0px 5px black;
+	z-index : 1;
+
+}
+
+.box
+{
+	background-color: white;
+	border : 1px solid white ; 
+	border-radius : 5px;
+}
+.sac1
+{
+	display:flex;
+	justify-content: space-around;		
+
+}
+#element1
+{
+	order: 2;
+	width:19%;
+}
+#element2
+{
+	order:1;
+	width:79%;
+	display:flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+a, a:hover, a:visited, a:active
+{
+	color:#3CB371;
+	text-decoration:none;
+}
+footer
+{
+	position:fixed;
+	bottom:0px;
+	text-align:center;
+}

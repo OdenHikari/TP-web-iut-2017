@@ -1,0 +1,132 @@
+
+.box
+{
+	background-color : white; 
+	border : 1px solid white ; 
+	border-radius : 5px;
+}
+aside
+{
+	width:19%;
+	float:right;
+	clear:right;
+	text-align:center;
+}
+section
+{
+	width:79%;
+	margin-bottom:10px;
+}
+body
+{
+	background-color :#4169E1;
+	/*background-repeat : no-repeat;*/
+	background-position : center top;
+}
+p
+{
+	font-size : 12px; 
+	text-align : justify; 
+	margin-left : 50px; 
+	margin-right : 50px
+}
+h3
+{ 
+	margin-left : 10px;
+}
+h1
+{
+	text-align : center;
+	border : 1px solid black;
+	background-color : #7FFFD4;
+	border-radius : 5px;
+	margin-top : 40px;
+	text-shadow: 2px 2px 4px orange;
+	text-shadow: 5px 8px 6px red;
+}
+a, a:hover, a:visited, a:active
+{
+	color:#48D1CC;
+	text-decoration:none;
+}
+table,td,th
+{
+	border-collapse:collapse;
+	border: 1px solid black;
+	text-align:center;
+	padding:8px;
+	margin:auto;
+}
+table
+{
+	width:99%;
+}
+ul
+{
+	text-align:left;
+}
+.menu
+{
+	display:inline-block;
+	width:24%;
+	border-collapse: collapse;
+}
+.borderau
+{
+	background:linear-gradient(to bottom, #FFE4B5,red);
+	width: 101%;
+	position: relative;
+	left: -8px;
+	padding:15px;
+	box-shadow: 0px 0px 5px black;
+}	
+.image
+{
+	display:inline-block;
+	width: 10%;
+	margin:30px;
+	/*margin-left: 0px;
+	margin-right: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;*/
+}
+figure
+{
+	text-align: center;
+	width :100%;
+	margin:0px;
+	position: relative;
+	left: -15px;
+}
+footer
+{
+	position:fixed;
+	bottom:0px;
+	text-align:center;
+}
+.social
+{
+	width: 45%;
+    display: inline-block;
+}
+.position
+{
+	width:10%;
+	position:absolute;
+	top: 1px;
+	right: 1px;
+}
+#cache>ul
+{
+	display:none;
+}
+#cache:hover ul
+{
+	position:absolute;
+	display:block;
+	background-color:#FFE4B5;
+}
+.sm 
+{
+	display :block;
+}
