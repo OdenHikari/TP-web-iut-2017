@@ -1,0 +1,159 @@
+h1{
+	display:flex;
+	color : #C1A208;
+	text-shadow: 2px 2px 1px green;
+	
+
+}
+#fw {
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+	display:flex;
+	width:95%;
+	height:150px;
+}
+header{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+
+}
+
+nav{
+	display:flex;
+	justify-content:center;
+}
+
+#menu{
+	display:flex;
+	width:95%;
+	flex-direction:row;
+	background:linear-gradient(#750071,turquoise);
+	border :solid black;
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#menu>ul{
+	display:flex;
+	width:100%;
+	padding:10px;
+	justify-content:space-between;
+
+}
+
+
+#menu>ul>li{
+	display:flex;
+	border:solid black;
+	width:32%;
+	justify-content:center; 
+	font-size:40px;
+	background-color:#B036AC;
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.deroulant>ul{
+	padding:20px;
+	display:none;
+	border:solid black;
+	background-color:#750071;
+	top:104%;
+	width:90%;
+	flex-direction:column;
+	justify-content:space-between;
+	position:absolute;
+	color:lightblue;
+	border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+.deroulant:hover ul{
+	display:flex;
+}
+.deroulant{
+	position:relative;
+	justify-content:center;
+}
+
+.deroulant>ul>li , aside>ul>li{
+	display:flex;
+	border:solid black;
+	justify-content:center;
+	width:100%;
+}
+
+a{
+	color:gold;
+	text-decoration:none;
+	text-shadow: 2px 2px 1px green;
+
+
+}
+
+p{
+	color:gold;
+}
+
+
+aside{
+	display:flex;
+	position:absolute;
+	justify-content:center;
+	top:400px;
+	right:0px;
+	max-width:8%;
+	
+	
+
+}
+aside>ul{
+	background-color:royalblue;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	padding:5px;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+li{
+	display:flex;
+
+}
+article{
+	display:flex;
+	padding-top:10px;
+	justify-content:center;
+	flex-direction:row;
+	flex-wrap:wrap;
+
+
+}
+article>div{
+	border :solid black;
+	
+
+	background:radial-gradient(violet,darkblue);
+	width:85%;
+	min-height:1000px;
+}
+footer{
+	display:block;
+	position:fixed;
+	bottom:0px;
+	background-color:silver;
+}
+input:invalid{
+	border: 1px solid red
+}
+label,div {
+	color:gold;
+}
+form{
+	display:flex;
+	flex-direction:column;
+
