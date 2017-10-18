@@ -1,0 +1,69 @@
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.navbar-inverse {
+
+    background-color: #222;
+    border-color: #080808;}
+.navbar
+{
+	padding:0.5rem 0.2rem;
+	margin-bottom: 0px;
+}
+.bg-hs
+{
+	background: linear-gradient(orange,salmon);
+}
+.navbar-brand>img
+{
+	display:block;
+}
+.icon
+{
+	margin-top : -10px;
+}
+.sup
+{
+        background: linear-gradient(orange,salmon);
+	border-radius:0px;
+	border:none;
+	padding : 40px;
+}
+
+.jumbotron
+{
+	background-color : blue;
+	margin : 0px;
+	width : 100%;
+}
+.hautdroit
+{
+	display : flex;
+	position : absolute;
+	right : 5px;
+	top : 5px;
+}
+
+.basgauche
+{
+	display : flex;
+        position : absolute;
+        left : 5px;
+	bottom: 5px;
+}
+.fond1
+{
+	position : relative;
+        min-height : 80vh;
+        margin : 0px;
+        background : url("mageexodia.jpg");
+        background-size : cover;
+}
+
+.fluid-container
+{
+	background-color :white;
+}
