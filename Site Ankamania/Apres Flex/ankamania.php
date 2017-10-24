@@ -1,4 +1,4 @@
-<?php include("hearder.html"); ?>
+<?php include("header.html"); ?>
 
 <main>
 <header><h2>Nouveautés</h2></header>
